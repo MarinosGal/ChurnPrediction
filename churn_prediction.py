@@ -7,7 +7,6 @@ from sklearn 					import preprocessing as pp
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.model_selection 	import train_test_split
 from sklearn.ensemble 			import RandomForestClassifier
-from matplotlib.ticker 			import MaxNLocator
 from collections 				import namedtuple
 from flask 						import Flask, url_for, render_template, Response
 from sklearn.metrics			import accuracy_score, average_precision_score, f1_score, precision_score, recall_score, roc_auc_score
