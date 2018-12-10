@@ -24,8 +24,7 @@ def evaluate(y_pred, y_real):
 	y_real : numpy array
 	    The observations
 	"""
-	print(len(y_pred))
-	print(len(y_real))
+
 	accuracy 		  = accuracy_score		 (y_real, y_pred)
 	average_precision = average_precision_score(y_real, y_pred)
 	f1				  = f1_score				 (y_real, y_pred)
